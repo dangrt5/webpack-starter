@@ -1,0 +1,29 @@
+{
+  "name": "webpack-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-dev-server": "^3.4.1",
+    "webpack": "^4.32.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --colors --progress",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangrt5/webpack-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangrt5/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/dangrt5/webpack-starter#readme"
+}
