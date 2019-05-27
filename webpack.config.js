@@ -10,7 +10,8 @@ const webpackConfig = {
     contentBase: resolve(__dirname, "dist"),
     compress: true,
     port: 6969,
-    watchContentBase: true
+    watchContentBase: true,
+    overlay: true
   },
   module: {
     rules: [

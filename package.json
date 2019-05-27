@@ -23,7 +23,7 @@
     "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development --config ./webpack.config.js --colors --progress",
+    "dev": "webpack-dev-server --hot --inline --dev-tool eval-source-map --mode development --config ./webpack.config.js --colors --progress",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
